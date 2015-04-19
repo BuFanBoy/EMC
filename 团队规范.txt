@@ -1,0 +1,34 @@
+一、统一命名
+网络流量数据
+1、用户ID long  id
+2、上网地点 string   location
+3、会话开始时间(UNIX 时间) 单位毫秒 long  start_time
+4、会话持续时间 单位毫秒 long  duration
+5、服务提供商 string service_provider
+6、服务类型 string  service_type
+7、服务一级域名 string  domain
+8、通信字节数 long  bytes
+9、发送的 HTTP  https
+用户数据
+1、用户ID long id 
+2、性别 boolean sex
+3、生日 int birthday
+4、年级 int year
+
+二、代码格式
+##项目名称：EMC比赛
+##项目时间：2015-4-16
+##项目负责人：Sybil
+##项目目的：研究上海交大WiFi情况
+##项目方法：summary/关联
+rm(list=ls())
+##加载包
+library("XXXX")
+##说明函数功能
+{code}
+
+三、原则
+1、代码要注释清楚。
+2、代码要直接可运行（或者简单修改）也就是说要让小白可重现。（我是小白用户）
+3、要考虑性能。太耗内存或者计算比较复杂可以使用其他工具处理好数据再用R来处理。
+
